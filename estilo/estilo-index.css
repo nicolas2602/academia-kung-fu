@@ -1,0 +1,73 @@
+.imagem-boas-vindas{
+    text-align: center;
+    padding: 200px 100px 200px 100px;
+    background-color: silver;
+    background-image: url("/imagem/treino_2.png");
+}
+
+.boas-vindas{
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    text-align: justify;
+}
+
+.imagem-boas-vindas .boas-vindas p{
+    font-size: 20px;
+}
+
+.foto{
+    margin: 80px 0 80px;
+}
+
+.foto h2{
+    text-align: center;
+}
+
+.bloco-foto{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    padding: 100px 100px 100px 100px;
+    margin: 50px;
+    background-color: silver;
+}
+
+.sobre-nos, .nossos-valores{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco-imagem{
+    padding: 100px 200px 100px 200px;
+}
+
+.sobre-nos .bloco-imagem{
+    background-color: silver;
+    margin: 0 5px 0 0;
+}
+
+.nossos-valores .bloco-imagem{
+    background-color: silver;
+    margin: 0 0 0 5px;
+}
+
+.sobre-nos .texto-sobre, .nossos-valores .texto-nossos{
+    padding: 100px 100px 100px 100px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+
+.sobre-nos .texto-sobre h2, .nossos-valores .texto-nossos h2{
+    border-bottom: 3px double white;
+    margin-bottom: 12px;
+}
+
+.nossos-valores .texto-nossos ol{
+    margin: 0 15px;
+    width: 98%;
+}

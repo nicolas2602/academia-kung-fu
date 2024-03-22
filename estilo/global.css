@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Reboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Menu de navegação */
+header {
+    padding: 30px 20px 30px 20px;
+    background-color: #FF0000;
+}
+
+.menu img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.menu .lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu .lista li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+}
+
+.menu .lista li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.menu .lista li a:hover {
+    background-color: white;
+    color: red;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+/* Espaçamento do site */
+.margem {
+    margin: 10px 12px 10px 12px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+/* Rodapé */
+footer {
+    padding: 12px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+footer .texto-junte-se{
+    border-bottom: 1px double white;
+    padding: 0 0 12px;
+}
+
+footer .copyright{
+    font-weight: 550;
+}

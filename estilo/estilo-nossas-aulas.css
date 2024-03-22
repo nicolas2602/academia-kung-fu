@@ -1,0 +1,28 @@
+.bloco-introducao {
+    font-size: 20px;
+    padding: 50px 50px 50px 50px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+
+.tabela table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: separate;
+}
+
+.tabela table tr th{
+    background-color: rgb(85, 81, 81);
+    color: white;
+}
+
+.tabela table tr td, .tabela table tr th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px 0 12px;
+}
+
+.bloco-beneficios ol {
+    margin: 0 18px;
+}
