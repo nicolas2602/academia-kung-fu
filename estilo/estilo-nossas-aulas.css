@@ -6,10 +6,16 @@
     text-align: justify;
 }
 
+.tabela h3{
+    border-bottom: 3px double black;
+    margin-bottom: 12px;
+    width: 115%;
+}
+
 .tabela table {
     border: 1px solid black;
-    width: 100%;
     border-collapse: separate;
+    width: 115%;
 }
 
 .tabela table tr th{
@@ -23,6 +29,20 @@
     padding: 12px 0 12px;
 }
 
+.bloco-beneficios{
+    width: 50%;
+    background-color: #FFD700;
+    padding: 12px 12px 0 12px;
+}
+
+.bloco-beneficios h3{
+    border-bottom: 3px double black;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
 .bloco-beneficios ol {
     margin: 0 18px;
+    font-size: 20px;
+    padding: 30px 15px;
 }

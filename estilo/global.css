@@ -2,20 +2,23 @@
 
 * {
     font-family: "Reboto", sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Menu de navegação */
-header {
-    padding: 30px 20px 30px 20px;
-    background-color: #FF0000;
+header .logo{
+    display: flex;
+    justify-content: center;
 }
 
-.menu img{
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
+header .logo img{
+    width: 28%;
+}
+
+.menu{
+    padding: 30px 20px 30px 20px;
+    background-color: #FF0000;
 }
 
 .menu .lista {
@@ -35,7 +38,7 @@ header {
     padding: 5px 5px 5px 5px;
 }
 
-.menu .lista li a:hover {
+.menu .lista li a:hover{
     background-color: white;
     color: red;
     padding: 5px 5px 5px 5px;
@@ -45,6 +48,11 @@ header {
 /* Espaçamento do site */
 .margem {
     margin: 10px 12px 10px 12px;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
@@ -58,11 +66,11 @@ footer {
     background-color: #333333;
     color: white;
 }
-footer .texto-junte-se{
+footer .texto-junte-se {
     border-bottom: 1px double white;
     padding: 0 0 12px;
 }
 
-footer .copyright{
+footer .copyright {
     font-weight: 550;
 }
