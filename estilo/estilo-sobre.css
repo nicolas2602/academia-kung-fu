@@ -1,0 +1,70 @@
+.bloco-historia, .bloco-mestre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.historia-academia{
+    background-color: black;
+    color: white;
+    padding: 85px 20px 0 20px;
+    text-align: justify;
+}
+
+.bloco-historia .foto-academia{
+    margin: 20px;
+}
+
+.bloco-historia .foto-academia img{
+    width: 280px;
+    height: 280px;
+}
+
+.bloco-filosofia{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.bloco-mestre .foto-mestre{
+    margin: 0 5px 0 0;
+}
+
+.bloco-mestre .foto-mestre img{
+    width: 280px;
+    height: 280px;
+}
+
+.sobre-mestre{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 60px 20px 0 20px;
+    height: 220px;
+}
+
+.historia-academia h1, 
+.bloco-filosofia h1, 
+.sobre-mestre h1{
+    border-bottom: 3px double white;
+}
+
+.historia-academia p, 
+.bloco-filosofia p,
+.sobre-mestre p{
+    margin-top: 5px;
+}
+
+.citacao{
+    font-size: 18px;
+    text-align: center;
+    margin: 30px;
+}
+
+.citacao sub p span{
+    padding: 0 0 12px 0;
+}
+
+.historia-academia, .bloco-filosofia, .sobre-mestre{
+    font-size: 20px;
+}

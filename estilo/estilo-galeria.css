@@ -1,6 +1,26 @@
-.foto{
+.bloco-foto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria-foto{
+    display: grid;
+    grid-template-columns: 255px 255px;
+}
+
+.foto img{
     background-color: silver;
-    width: 420px;
-    height: 300px;
-    margin-bottom: 12px;
+    width: 250px;
+    height: 250px;
+    margin: 5px 0 0 0;
+}
+
+.galeria-video{
+    background-color: black;
+    padding: 50px 0 50px 0;
+    margin: 5px 0 0 50px;
+}
+
+.galeria-video video{
+    width: 100%;
 }
