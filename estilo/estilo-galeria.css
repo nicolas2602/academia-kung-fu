@@ -24,3 +24,15 @@
 .galeria-video video{
     width: 100%;
 }
+
+@media (min-width: 450px) and (max-width: 1000px){
+    .bloco-foto{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bloco-foto{
+        flex-direction: column;
+    }
+
+}

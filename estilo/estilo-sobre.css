@@ -68,3 +68,33 @@
 .historia-academia, .bloco-filosofia, .sobre-mestre{
     font-size: 20px;
 }
+
+@media screen and (min-width: 450px) and (max-width: 1000px){
+
+    .historia-academia{
+        background-color: black;
+        color: white;
+        padding: 85px 20px 85px 20px;
+        text-align: justify;
+        width: 50%;
+    }
+
+    .bloco-historia .foto-academia img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .bloco-mestre .foto-mestre img{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .sobre-mestre{
+        background-color: black;
+        color: white;
+        text-align: justify;
+        padding: 60px 20px 0 20px;
+        height: 220px;
+        width: 50%;
+    }
+}

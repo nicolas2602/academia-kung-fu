@@ -19,6 +19,10 @@
     text-decoration: underline;
 }
 
+/* body{
+    overflow: hidden;
+} */
+
 /* Menu de navegação */
 header .logo{
     display: flex;
@@ -74,11 +78,14 @@ main {
 
 /* Rodapé */
 footer {
+    position: sticky;
+    bottom: 0;
     padding: 12px;
     text-align: center;
     background-color: #333333;
     color: white;
 }
+
 footer .texto-junte-se {
     border-bottom: 1px double white;
     padding: 0 0 12px;
@@ -88,6 +95,34 @@ footer .copyright {
     font-weight: 550;
 }
 
-/* @media only screen and (max-width: ){
-    
-} */
+@media screen and (min-width: 450px) and (max-width: 1000px){
+
+    * {
+        overflow-y: auto;
+        overflow-x: none;
+    }
+
+    *::-webkit-scrollbar{
+        display: none;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    header .logo img{
+        width: 50%;
+    }
+
+    .menu {
+        width: 120%;
+    }
+
+    footer {
+        padding: 12px;
+        text-align: center;
+        background-color: #333333;
+        color: white;
+        width: 100%;
+    }
+}

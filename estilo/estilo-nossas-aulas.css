@@ -9,13 +9,13 @@
 .tabela h3{
     border-bottom: 3px double black;
     margin-bottom: 12px;
-    width: 115%;
+    width: 500px;
 }
 
 .tabela table {
     border: 1px solid black;
     border-collapse: separate;
-    width: 115%;
+    width: 500px;
 }
 
 .tabela table tr th{
