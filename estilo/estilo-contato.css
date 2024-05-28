@@ -4,7 +4,7 @@
 }
 
 .tipo-contato{
-    background-image: url("/imagem/atendente-contato.jpg");
+    background-image: url("../imagem/atendente-contato.jpg");
     color: white;
     padding: 16px 10px 16px 10px;
     width: 45%;

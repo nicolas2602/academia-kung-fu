@@ -2,7 +2,7 @@
     text-align: center;
     padding: 200px 100px 200px 100px;
     background-color: silver;
-    background-image: url("/imagem/treino_2.png");
+    background-image: url("../imagem/treino_2.png");
 }
 
 .boas-vindas{
