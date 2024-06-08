@@ -19,9 +19,6 @@
     text-decoration: underline;
 }
 
-/* body{
-    overflow: hidden;
-} */
 
 /* Menu de navegação */
 header .logo{
@@ -60,6 +57,13 @@ header .logo img{
     color: red;
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
+}
+
+select {
+    border-color: transparent;
+    background-color: #FF0000;
+    color: white;
+    padding: 5px 5px 5px 5px;
 }
 
 /* Espaçamento do site */
@@ -115,7 +119,7 @@ footer .copyright {
     }
 
     .menu {
-        width: 120%;
+        width: 100%;
     }
 
     footer {
