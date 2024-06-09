@@ -158,8 +158,8 @@ function formatoCor() {
 }
 
 function removeFormato() {
-    formatCor.innerHTML = '';
-    configCor.innerHTML = '';
+    formatCor.innerHTML = "";
+    configCor.innerHTML = "";
 }
 
 function mudarCorFundo() {
@@ -168,27 +168,21 @@ function mudarCorFundo() {
 
     switch (escolherCor) {
         case 'branco':
-            // removeFormato();
             definirCorFundo('white');
             break;
         case 'preto':
-            // removeFormato();
             definirCorFundo('black');
             break;
         case 'dourado':
-            // removeFormato();
             definirCorFundo('gold');
             break;
         case 'vermelho':
-            // removeFormato();
             definirCorFundo('#8B0000');
             break;
         case 'cinza':
-            // removeFormato();
             definirCorFundo('#333333');
             break;
         case 'verde':
-            // removeFormato();
             definirCorFundo('#006400');
             break;
         default:
