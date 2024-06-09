@@ -158,39 +158,37 @@ function formatoCor() {
 }
 
 function removeFormato() {
-    const formCor = document.getElementById('formCor');
-
-    if (formCor != null) {
-        formCor.remove();
-    }
+    formatCor.innerHTML = '';
+    configCor.innerHTML = '';
 }
 
 function mudarCorFundo() {
     const escolherCor = opcaoCor.value;
+    removeFormato();
 
     switch (escolherCor) {
         case 'branco':
-            removeFormato();
+            // removeFormato();
             definirCorFundo('white');
             break;
         case 'preto':
-            removeFormato();
+            // removeFormato();
             definirCorFundo('black');
             break;
         case 'dourado':
-            removeFormato();
+            // removeFormato();
             definirCorFundo('gold');
             break;
         case 'vermelho':
-            removeFormato();
+            // removeFormato();
             definirCorFundo('#8B0000');
             break;
         case 'cinza':
-            removeFormato();
+            // removeFormato();
             definirCorFundo('#333333');
             break;
         case 'verde':
-            removeFormato();
+            // removeFormato();
             definirCorFundo('#006400');
             break;
         default:
