@@ -57,10 +57,10 @@ function atualizarCarrousel() {
 
         imgCarroussel.appendChild(imgAlinhar);
 
-        const descriptionElement = document.createElement("p");
-        descriptionElement.className = "desc-imagem";
-        descriptionElement.textContent = imagens[imgIndex].description;
-        descCarroussel.appendChild(descriptionElement);
+        const descImagem = document.createElement("p");
+        descImagem.className = "desc-imagem";
+        descImagem.textContent = imagens[imgIndex].description;
+        descCarroussel.appendChild(descImagem);
     }
 }
 

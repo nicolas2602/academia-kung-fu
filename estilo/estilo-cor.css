@@ -103,3 +103,41 @@ input[type="range"]{
     margin: 20px;
     padding-left: 16%;
 }
+
+@media (min-width: 450px) and (max-width: 1000px){
+
+    .opcao-cor select{
+        border-radius: 5px solid black;
+        padding: 15px;
+        width: 80%;
+        text-align: center;
+    }
+
+    input[type="text"]{
+        padding: 5px;
+        border-radius: 10px;
+        width: 80%;
+    }
+    
+    input[type="range"]{
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    #alterarCor{
+        padding: 5px;
+        border-radius: 10px;
+        width: 90%;
+        background-color: rgb(89, 216, 89);
+        color: white;
+    }
+
+    .img-alinhar img{
+        width: 100%;
+    }
+
+    .desc-imagem{
+        padding: 20px;
+        padding-left: 16%;
+    }
+}
