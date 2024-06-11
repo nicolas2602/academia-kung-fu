@@ -3,8 +3,9 @@ const formatCor = document.getElementById('tipoCor');
 const configCor = document.getElementById('configCor');
 const texto = document.getElementById('texto');
 
-function definirCorFundo(definirCor) {
+function definirCorFundo(definirCor, corTexto) {
     document.body.style.backgroundColor = definirCor;
+    document.body.style.color = corTexto;
 }
 
 function definirCorInput(input, definirCor) {
@@ -168,22 +169,22 @@ function mudarCorFundo() {
 
     switch (escolherCor) {
         case 'branco':
-            definirCorFundo('white');
+            definirCorFundo('white', 'black');
             break;
         case 'preto':
-            definirCorFundo('black');
+            definirCorFundo('black', 'white');
             break;
         case 'dourado':
-            definirCorFundo('gold');
+            definirCorFundo('gold', 'red');
             break;
         case 'vermelho':
-            definirCorFundo('#8B0000');
+            definirCorFundo('#8B0000', 'white');
             break;
         case 'cinza':
-            definirCorFundo('#333333');
+            definirCorFundo('#333333', 'white');
             break;
         case 'verde':
-            definirCorFundo('#006400');
+            definirCorFundo('#006400', 'white');
             break;
         default:
             formatoCor();

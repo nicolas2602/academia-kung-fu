@@ -32,13 +32,13 @@
                     <a href="sobre.html">Sobre</a>
                 </li>
                 <li>
-                    <a href="cor.html">Cor e Carroussel</a>
+                    <a href="cor-e-carrossel.html">Cor e Carroussel</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div class="margem">
+    <div class="margem opcao-cor">
         <select id="opcaoCor">
             <option value="" selected disabled>Selecione uma cor de fundo</option>
             <option value="branco">Branco</option>
@@ -51,11 +51,41 @@
         </select>
     </div>
 
-    <div id="tipoCor"></div>
-    <div id="radioCor"></div>
-    <div id="configCor" class="margem"></div>
-    <p id="texto"></p>
+    <div class="bloco-personalizar">
+        <div id="tipoCor"></div>
+        <div id="radioCor"></div>
+        <div id="configCor" class="margem"></div>
+        <p id="texto"></p>
+    </div>
+
+    <div class="bloco-slider">
+        <h3>Nossos lemas do Kung-Fu</h3>
+        <div class="bloco-carrossel">
+            <span class="seta seta-esquerda">&#9664;</span>
+            <div class="img-carrossel"></div>
+            <span class="seta seta-direita">&#9654;</span>
+        </div>
+        
+        <div class="desc-imagem"></div>
+    </div>
+    
+
+    <footer>
+        <div class="margem texto-junte-se">
+            <h2>Junte-se a Nós:</h2>
+            <p>
+                Junte-se a nós para uma jornada emocionante de autodesenvolvimento, condicionamento físico e camaradagem. Entre em contato hoje mesmo para uma aula experimental 
+                gratuita e descubra como o Kung-Fu pode transformar sua vida!
+            </p>
+        </div>
+        <div class="copyright">
+            <span>
+                <sup>&copy</sup> 2024 Direitos Autorais Reservados - Academia de Kung-Fu NHY
+            </span>
+        </div>
+    </footer>
     
     <script src="./script/opcaoCor.js" type="text/javascript"></script>
+    <script src="./script/carrossel.js" type="text/javascript"></script>
 </body>
 </html>
