@@ -16,12 +16,18 @@ function inputRgb(r, g, b) {
     configCor.innerHTML = ""+
         "<form id='formRgb' name='formRgb'>"+
             "<input type='text' id='rgb' name='rgb' value='rgb("+r+","+g+","+b+")'><br>"+
-            "<label>R:</label>"+
-            "<input type='range' id='rangeR' min='0' max='255' value='"+r+"'><br>"+
-            "<label>G:</label>"+
-            "<input type='range' id='rangeG' min='0' max='255' value='"+g+"'><br>"+
-            "<label>B:</label>"+
-            "<input type='range' id='rangeB' min='0' max='255' value='"+b+"'><br>"+
+            "<div class='alinhar'>"+
+                "<label>R:</label>"+
+                "<input type='range' id='rangeR' min='0' max='255' value='"+r+"'><br>"+
+            "</div>"+
+            "<div class='alinhar'>"+
+                "<label>G:</label>"+
+                "<input type='range' id='rangeG' min='0' max='255' value='"+g+"'><br>"+
+            "</div>"+
+            "<div class='alinhar'>"+
+                "<label>B:</label>"+
+                "<input type='range' id='rangeB' min='0' max='255' value='"+b+"'><br>"+
+            "</div>"+
             "<button type='button' id='alterarCor'>Alterar</button>"+
         "</form>";
 
@@ -53,12 +59,18 @@ function inputHex(r, g, b) {
     configCor.innerHTML = ""+
         "<form id='formHex' name='formHex'>"+
             "<input type='text' id='hex' name='' value='#"+r+g+b+"'><br>"+
-            "<label>R:</label>"+
-            "<input type='range' id='rangeR' min='0' max='255' value='"+r+"'><br>"+
-            "<label>G:</label>"+
-            "<input type='range' id='rangeG' min='0' max='255' value='"+g+"'><br>"+
-            "<label>B:</label>"+
-            "<input type='range' id='rangeB' min='0' max='255' value='"+b+"'><br>"+
+            "<div class='alinhar'>"+
+                "<label>R:</label>"+
+                "<input type='range' id='rangeR' min='0' max='255' value='"+r+"'><br>"+
+            "</div>"+
+            "<div class='alinhar'>"+
+                "<label>G:</label>"+
+                "<input type='range' id='rangeG' min='0' max='255' value='"+g+"'><br>"+
+            "</div>"+
+            "<div class='alinhar'>"+
+                "<label>B:</label>"+
+                "<input type='range' id='rangeB' min='0' max='255' value='"+b+"'><br>"+
+            "</div>"+
             "<button type='button' id='alterarCor'>Alterar</button>"+
         "</form>";
 
@@ -95,12 +107,18 @@ function inputHsl(h, s, l) {
     configCor.innerHTML = ""+
         "<form id='formHsl' name='formHsl'>"+
             "<input type='text' id='hsl' name='hsl' value='hsl("+h+","+s+"%,"+l+"%)'><br>"+
-            "<label>H:</label>"+
-            "<input type='range' id='rangeH' min='0' max='360' value='"+h+"'><br>"+
-            "<label>S:</label>"+
-            "<input type='range' id='rangeS' min='0' max='100' value='"+s+"'><br>"+
-            "<label>L:</label>"+
-            "<input type='range' id='rangeL' min='0' max='100' value='"+l+"'><br>"+
+            "<div class='alinhar'>"+
+                "<label>H:</label>"+
+                "<input type='range' id='rangeH' min='0' max='360' value='"+h+"'><br>"+
+            "</div>"+
+            "<div class='alinhar'>"+
+                "<label>S:</label>"+
+                "<input type='range' id='rangeS' min='0' max='100' value='"+s+"'><br>"+
+            "</div>"+
+            "<div class='alinhar'>"+
+                "<label>L:</label>"+
+                "<input type='range' id='rangeL' min='0' max='100' value='"+l+"'><br>"+
+            "</div>"+
             "<button type='button' id='alterarCor'>Alterar</button>"+
         "</form>";
 

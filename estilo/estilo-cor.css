@@ -16,8 +16,27 @@
     margin-bottom: 30px;
 }
 
-.bloco-personalizar #tipoCor form input[type=radio]{
+.alinhar {
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input[type="range"]{
+    border-radius: 10px;
+}
+
+#alterarCor{
+    padding: 5px;
+    border-radius: 10px;
+    width: 175px;
+    background-color: rgb(89, 216, 89);
+    color: white;
 }
 
 .bloco-slider {
